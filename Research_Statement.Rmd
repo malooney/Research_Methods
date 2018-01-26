@@ -1,0 +1,12 @@
+---
+title: "Untitled"
+author: "Matthew Aaron Looney"
+date: "1/25/2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The goal of this research project will be to explore 
