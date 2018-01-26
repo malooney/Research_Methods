@@ -1,12 +1,29 @@
 ---
-title: "Untitled"
+title: "Research Project Description"
 author: "Matthew Aaron Looney"
 date: "1/25/2018"
 output: pdf_document
+
+header-includes:
+- \usepackage{graphicx}
+- \usepackage{rotating}
+- \usepackage{longtable}
+- \usepackage{amssymb,amsmath}
+- \usepackage{dcolumn}
+- \usepackage{setspace}\doublespacing
+- \usepackage{mathrsfs}
+- \usepackage{eso-pic,graphicx,transparent}
+
+fontsize: 12pt
+geometry: margin = 1.25in
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-The goal of this research project will be to explore 
+The beer industry in the United States represents more than $350 billion dollars (2016) of total economic impact. The industry structure is oligopolistic in nature and the composition of beer is such that differentiation among brands is extensive. 
+
+My interest in the beer industry is to determine how consumer demographic heterogeneity, and in particular, ethnicity, helps drive beer preference. In other words, does your heritage influence your taste preference, in this case for beer?
+
+To answer this question I will obtain estimates of demand and cost parameters using a random coefficients discrete choice model developed by Berry, Levinsohn, and Pakes (1995), hereafter BLP. Brand level data will be obtained from the Information Resources, Inc. Infoscan database and consumer level demographic data will be obtained from the Current Population Survey. 
